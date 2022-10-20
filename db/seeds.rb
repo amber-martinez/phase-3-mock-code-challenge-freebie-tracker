@@ -18,4 +18,9 @@ puts "Creating freebies..."
 # ***************************************************************
 # Create freebies Here
 
+Freebie.create(name: "hat")
+Freebie.create(name: "sticker")
+Freebie.create(name: "phone ring")
+Freebie.create(name: "usb")
+
 puts "Seeding done!"
